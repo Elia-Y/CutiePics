@@ -12,6 +12,7 @@
 # Photos that have been uploaded are stored in Google Firebase, and users need to register before they can share photos.
 # ![alt text](https://github.com/rainagan/CutiePics/blob/master/others/download.gif "download")
 # ![alt text](https://github.com/rainagan/CutiePics/blob/master/others/log%20out.gif "log out")
-This is a photo editing app create under University of Waterloo CS 446.
+
+This is a photo editing app created under University of Waterloo CS 446 by Yuxiao Yu, Raina Gan and Fanny Zhao.
 
 
