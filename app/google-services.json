@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "574820347955",
+    "firebase_url": "https://cutiepics-92119.firebaseio.com",
+    "project_id": "cutiepics-92119",
+    "storage_bucket": "cutiepics-92119.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574820347955:android:293a0a17ce41fef2",
+        "android_client_info": {
+          "package_name": "ygz.cutiepics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574820347955-tde3hng6q06bg0bl7o1gvb5rb245lbgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ygz.cutiepics",
+            "certificate_hash": "cc95e428dd3dff5ad8c3e3326e7d7cb7d664c79a"
+          }
+        },
+        {
+          "client_id": "574820347955-d3acpk1roepqvtmnqaan3a48kj42l5hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUMOLnbORs3hHbJGFTmTqSzVJ10lf_AqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574820347955-d3acpk1roepqvtmnqaan3a48kj42l5hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

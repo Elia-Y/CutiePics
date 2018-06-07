@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLightPink">#fcc8d7</color>
+    <color name="nudePink">#e9ccca</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="darkGrey">#696969</color>
+    <color name="lightGrey">#aaaaaa</color>
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+
+    <color name="orange">#f9e7b3</color>
+    <color name="watermelon">#ff8a7e</color>
+
+    <color name="button_focused">#ffd584</color>
+    <color name="button_pressed">#fdbc40</color>
+
+    <color name="login_page_btn_focused">#e8c5c2</color>
+    <color name="login_page_btn_pressed">#e2afac</color>
+</resources>

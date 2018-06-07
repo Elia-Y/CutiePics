@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sticker_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    tools:context=".StickerActivity">
+
+    <Button
+        android:id="@+id/save_photo"
+        android:layout_width="45dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:background="@drawable/save_button"
+        android:onClick="saveImg"
+        android:textSize="24sp" />
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="380dp"
+        android:layout_width="380dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/save_photo"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <SeekBar
+        android:id="@+id/scaler"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rotater"
+        android:layout_alignParentStart="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:max="100"
+        android:progress="50" />
+
+    <TextView
+        android:id="@+id/scaler_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/scaler"
+        android:layout_alignBottom="@+id/scaler"
+        android:layout_toEndOf="@+id/scaler"
+        android:fontFamily="@font/unkempt"
+        android:text="Scale" />
+
+    <SeekBar
+        android:id="@+id/rotater"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sticker_navigation"
+        android:layout_alignParentStart="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:max="360"
+        android:progress="180" />
+
+    <TextView
+        android:id="@+id/rotater_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rotater"
+        android:layout_alignBottom="@+id/rotater"
+        android:layout_toEndOf="@+id/rotater"
+        android:fontFamily="@font/unkempt"
+        android:text="Rotate" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/sticker_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="start"
+        app:itemBackground="@color/colorWhite"
+        app:itemIconTint="@color/colorLightPink"
+        app:itemTextColor="@color/colorLightPink"
+        app:menu="@menu/sticker_bottom_nav" >
+
+    </android.support.design.widget.BottomNavigationView>
+</RelativeLayout>
+
